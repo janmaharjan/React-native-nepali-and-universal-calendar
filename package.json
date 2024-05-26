@@ -1,0 +1,30 @@
+{
+  "name": "nepali_and_universal_calander",
+  "version": "1.0.0",
+  "description": "Nepali and universal calander",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist"
+  },
+  "keywords": [
+    "nepali",
+    "calander",
+    "slider",
+    "jan",
+    "nepali calander",
+    "universal calander",
+    "customized calander"
+  ],
+  "author": "jan maharjan",
+  "license": "ISC",
+  "dependencies": {
+    "react-native": "^0.74.1",
+    "@sbmdkl/nepali-date-converter": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.6",
+    "@babel/core": "^7.24.6",
+    "@babel/preset-env": "^7.24.6",
+    "@babel/preset-react": "^7.24.6"
+  }
+}
