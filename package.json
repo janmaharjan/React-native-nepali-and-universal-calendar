@@ -1,10 +1,14 @@
 {
   "name": "nepali_and_universal_calander",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Nepali and universal calander",
   "main": "index.js",
   "scripts": {
     "build": "babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/janmaharjan/React-native-nepali-and-universal-calendar/blob/main/README.md"
   },
   "keywords": [
     "nepali",
@@ -18,13 +22,13 @@
   "author": "jan maharjan",
   "license": "ISC",
   "dependencies": {
-    "react-native": "^0.74.1",
+    "react-native": "^0.66.3",
     "@sbmdkl/nepali-date-converter": "^2.0.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.24.6",
-    "@babel/core": "^7.24.6",
-    "@babel/preset-env": "^7.24.6",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.24.3",
     "@babel/preset-react": "^7.24.6"
   }
 }
